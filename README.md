@@ -51,35 +51,35 @@ You can also access your Gmail account using the IMAP or POP3 option. But Gmail 
 
 Open the Gmail settings.
 
-![Gmail settings](https://www.codeplex.com/Download?ProjectName=emailprocessor&amp;DownloadId=1279408)
+![Gmail settings](http://download-codeplex.sec.s-msft.com/Download?ProjectName=emailprocessor&DownloadId=1279408)
 
 On the Settings page, click on Forwarding and POP/IMAP. Enable IMAP, if you want to access Gmail using IMAP method (recommended). Enable POP3, if you want to access with this method.
 
-![Enable IMAP and POP](https://www.codeplex.com/Download?ProjectName=emailprocessor&amp;DownloadId=1279471)
+![Enable IMAP and POP](http://download-codeplex.sec.s-msft.com/Download?ProjectName=emailprocessor&DownloadId=1279471)
 
 ### Step 2: Allow access to less secure apps
 
 Open&nbsp;[https://www.google.com/settings/security/lesssecureapps](https://www.google.com/settings/security/lesssecureapps "Enable less secure apps")&nbsp;and choose **Enable**.
 
-![Enable less secure apps](https://www.codeplex.com/Download?ProjectName=emailprocessor&amp;DownloadId=1279528)
+![Enable less secure apps](http://download-codeplex.sec.s-msft.com/Download?ProjectName=emailprocessor&DownloadId=1279528)
 
 ## List Folders
 
 Once you are connected to a mail server, it will show you the list of folders and sub folders (if any).
 
-![Get folders list from mail server](https://www.codeplex.com/Download?ProjectName=emailprocessor&amp;DownloadId=1266110)
+![Get folders list from mail server](http://download-codeplex.sec.s-msft.com/Download?ProjectName=emailprocessor&DownloadId=1266110)
 
 ## Get Emails
 
 To get the latest emails, click on any folder e.g. Inbox, Sent Items etc. it will show you the list of emails.
 
-![Read emails from Inbox or other folder](https://www.codeplex.com/Download?ProjectName=emailprocessor&amp;DownloadId=1266224)
+![Read emails from Inbox or other folder](http://download-codeplex.sec.s-msft.com/Download?ProjectName=emailprocessor&DownloadId=1266224)
 
 ## Export to PST
 
 You can export the emails to a PST file. The PST will be downloaded to your local drive and you can open it in Microsoft Outlook. You can either add the whole folder or select specific emails, to be included in the PST file.
 
-![Export emails to PST](https://www.codeplex.com/Download?ProjectName=emailprocessor&amp;DownloadId=1268685)
+![Export emails to PST](http://download-codeplex.sec.s-msft.com/Download?ProjectName=emailprocessor&DownloadId=1268685)
 
 ## Convert to PDF, DOCX, XPS and TIFF
 
@@ -87,25 +87,25 @@ You can also convert the selected messages to PDF, DOCX, XPS and TIFF. After con
 
 If you select multiple emails, they will be concatenated in one output document. And in case of TIFF conversion, it will have multiple pages, if you select large or multiple emails.
 
-![Convert email to PDF, DOCX, TIFF or XPS](https://www.codeplex.com/Download?ProjectName=emailprocessor&amp;DownloadId=1268863)
+![Convert email to PDF, DOCX, TIFF or XPS](http://download-codeplex.sec.s-msft.com/Download?ProjectName=emailprocessor&DownloadId=1268863)
 
 ## View Email
 
 Click on any email from the list to view it. The message will retain the HTML formatting, CSS styles and embedded images.
 
-![View email message](https://www.codeplex.com/Download?ProjectName=emailprocessor&amp;DownloadId=1269344)
+![View email message](http://download-codeplex.sec.s-msft.com/Download?ProjectName=emailprocessor&DownloadId=1269344)
 
 ## Download Email Attachments
 
 Attachments (if any) will be listed on top of the message. Click on an attachment to download it to your local drive.
 
-![Download attachments from email](https://www.codeplex.com/Download?ProjectName=emailprocessor&amp;DownloadId=1269660)
+![Download attachments from email](http://download-codeplex.sec.s-msft.com/Download?ProjectName=emailprocessor&DownloadId=1269660)
 
 ## Search Emails
 
 You can search the emails by entering the text in the top textbox. It matches the search text in subject, to, from and body of the email.
 
-![Search emails](https://www.codeplex.com/Download?ProjectName=emailprocessor&amp;DownloadId=1270017)
+![Search emails](http://download-codeplex.sec.s-msft.com/Download?ProjectName=emailprocessor&DownloadId=1270017)
 
 # Support and Feedback
 
