@@ -41,7 +41,7 @@ POP3 also requires the similar information as the IMAP server like URL, username
 
 **Note:** _POP3 servers are very rarely used these days, as it is based on older protocol. If you download a message, it gets deleted on the server by default. IMAP or Exchange servers are commonly used, as they provide better email sync and email management features._
 
-![Login to Exchange, IMAP or POP3 mail server](https://www.codeplex.com/Download?ProjectName=emailprocessor&amp;DownloadId=1265792)
+![Login to Exchange, IMAP or POP3 mail server](http://download-codeplex.sec.s-msft.com/Download?ProjectName=emailprocessor&DownloadId=1265792)
 
 ## Instructions for Gmail Users
 
