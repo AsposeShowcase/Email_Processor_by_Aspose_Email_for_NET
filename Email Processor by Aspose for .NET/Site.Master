@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Aspose.EmailProcessing.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Email Processor by Aspose for .NET</title>
+    <link href="~/Styles/bootstrap.css" rel="stylesheet" />
+    <link href="~/Styles/site.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <script src="Scripts/jquery-latest.js"></script>
+    <script src="Scripts/jquery.tablesorter.min.js"></script>
+    <script src="Scripts/jquery.tablesorter.pager.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div>
+                        <%--<a title="Aspose | Your file format APIs" href="http://www.aspose.com">
+                            <img width="175" height="50" class="logo" alt="Aspose" src="http://cdn.aspose.com/themes/v2/images/transparent.png" /></a>
+                        --%>
+                        <a href="#" style="padding-left: 30px;" class="navbar-brand">Email Processor by Aspose for .NET</a>
+                    </div>
+
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <asp:HyperLink ID="TopHyperLink" runat="server"></asp:HyperLink></li>
+                        <li><a href="http://www.aspose.com/docs/display/emailnet/Home">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

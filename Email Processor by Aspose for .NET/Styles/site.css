@@ -1,0 +1,288 @@
+.btn-spacer {
+    display: block;
+    width: 15px;
+    height: 15px;
+}
+
+.pdf-export-icon {
+
+    background-image: url("../Images/pdf-export.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    vertical-align: bottom;
+    width: 20px;
+}
+
+.back-arrow {
+
+    background-image: url("../Images/back-arrow.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    vertical-align: bottom;
+    width: 20px;
+}
+
+.xps-export-icon {
+
+    background-image: url("../Images/xps-export.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    vertical-align: bottom;
+    width: 20px;
+}
+
+.jpeg-export-icon {
+
+    background-image: url("../Images/jpeg-export.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    vertical-align: bottom;
+    width: 20px;
+}
+
+.docx-export-icon {
+
+    background-image: url("../Images/docx-export.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    vertical-align: bottom;
+    width: 20px;
+}
+
+.pst-export-icon {
+    background-image: url("../Images/pst-export.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    vertical-align: bottom;
+    width: 20px;
+}
+
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background-color: #f5f5f5;
+        border-right: 1px solid #eee;
+    }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+    .nav-sidebar > li > a {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .nav-sidebar > .active > a {
+        color: #fff;
+        background-color: #428bca;
+    }
+
+
+/*
+ * Main content
+ */
+
+.main {
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+.main .page-header {
+    margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+    .placeholders h4 {
+        margin-bottom: 0;
+    }
+
+.placeholder {
+    margin-bottom: 20px;
+}
+
+    .placeholder img {
+        display: inline-block;
+        border-radius: 50%;
+    }
+
+.overlay {
+    position: fixed;
+    z-index: 98;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #ccc;
+    opacity: 0.5;
+}
+
+.overlayContent {
+    background: none repeat scroll 0 0 #c3daf9;
+    border: 1px solid #6593cf;
+    height: 50px;
+    margin: 250px auto;
+    padding: 2px;
+    width: 160px;
+    z-index: 99;
+}
+
+    .overlayContent div.contentInnerDiv {
+        background-color: #fff;
+        border: 1px solid #a3bad9;
+        color: #000;
+        font: 11px tahoma,arial,helvetica,sans-serif;
+        height: 43px;
+        padding: 5px;
+        vertical-align: baseline;
+    }
+
+.logo {
+    background: url("http://cdn.aspose.com/themes/v2/images/header.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 5px;
+    width: 175px;
+}
+
+.nav > li > a {
+    padding: 5px 15px !important;
+}
+
+.rowBorderTop {
+    border-top: 1px solid #ddd;
+}
+
+.rowBorderRight {
+    border-right: 1px solid #ddd;
+}
+
+.width80 {
+    width: 80%;
+    vertical-align: top;
+}
+
+.width20 {
+    width: 20%;
+    vertical-align: top;
+}
+
+.coloredRow {
+    background-color: #f5f5f5;
+}
+
+.mailBoxTable {
+    width: 100%;
+}
+
+    .mailBoxTable td {
+        padding: 10px;
+    }
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+table.table-striped th.header {
+    cursor: pointer;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+table.table-striped td {
+    border-right: 0px;
+}
+
+.tablesorterPager {
+    margin: 0 auto;
+}
+
+div.recordsToDisplay {
+    padding-left: 100px;
+    display: inline;
+}
+
+div.pagingOuterDiv {
+    border-top: 2px solid #ddd;
+    padding-top: 10px;
+}
+
+.loginDiv {
+    width: 550px; margin: 0 auto;
+}
+
+.visibilityHidden {
+    visibility: hidden;
+}
+
+div.pleaseWait {
+    padding: 8px 5px 5px 40px;
+}
