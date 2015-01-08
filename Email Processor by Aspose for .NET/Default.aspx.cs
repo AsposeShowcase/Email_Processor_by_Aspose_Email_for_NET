@@ -31,38 +31,10 @@ namespace Aspose.EmailProcessing
 
         private void TestTreeview()
         {
-            //TestExchangeClient();
-            //TestImapClient();
+            
         }
 
-        private void TestImapClient()
-        {
-            // Authentication information
-            string ServerURL = "exchange.aspose.com";
-            bool SSLEnabled = true;
-            int SSLPort = 993;
-            string Username = "saqib.razzaq@aspose.com";
-            string Password = "mrooscancer";
-
-            // Connect to the Imap server
-            ImapClient client = new ImapClient(ServerURL, (SSLEnabled ? SSLPort : 143), Username, Password);
-            if (SSLEnabled)
-            {
-                client.EnableSsl = true;
-                client.SecurityMode = Aspose.Email.Imap.ImapSslSecurityMode.Implicit; // set security mode
-            }
-
-            try
-            {
-                ImapFolderInfoCollection folderInfoColl = client.ListFolders();
-                PopulateImapFolders(client, folderInfoColl, tvFolders.Nodes);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-        }
-
+        
         private void PopulateImapFolders(ImapClient client, ImapFolderInfoCollection folderInfoColl, TreeNodeCollection nodes)
         {
             // Add the current collection to the node
@@ -84,33 +56,7 @@ namespace Aspose.EmailProcessing
             }
         }
 
-        private void TestExchangeClient()
-        {
-            // Authentication information
-            string ServerURL = "https://exchange.aspose.com/ews/exchange.asmx";
-            string Username = "saqib.razzaq@aspose.com";
-            string Password = "mrooscancer";
-            string Domain = "";
-
-            // Connection to Exchange server
-            NetworkCredential credentials = new NetworkCredential(Username, Password, Domain);
-            IEWSClient client = EWSClient.GetEWSClient(ServerURL, credentials);
-            // Register callback method for SSL validation event
-            ServicePointManager.ServerCertificateValidationCallback += RemoteCertificateValidationHandler;
-
-            try
-            {
-                ExchangeMailboxInfo mailboxInfo = client.GetMailboxInfo();
-                string rootUri = client.GetMailboxInfo().RootUri;
-                // List all the folders from Exchange server
-                PopulateFoldersExchangeClient(client, rootUri, tvFolders.Nodes);
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
-        }
+        
 
         private void PopulateFoldersExchangeClient(IEWSClient client, string folderUri, TreeNodeCollection nodes)
         {
